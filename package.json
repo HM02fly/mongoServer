@@ -1,0 +1,44 @@
+{
+  "name": "mongo_server",
+  "version": "1.0.0",
+  "description": "Some description",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "nodemon",
+    "compile": "webpack --config webpack.config.js",
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HM02fly/nodeServer.git"
+  },
+  "keywords": [
+    "node",
+    "server"
+  ],
+  "author": "Haris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HM02fly/nodeServer/issues"
+  },
+  "homepage": "https://github.com/HM02fly/nodeServer#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "helmet": "^4.5.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "webpack": "^5.35.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
