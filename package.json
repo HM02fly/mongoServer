@@ -24,10 +24,11 @@
     "url": "https://github.com/HM02fly/nodeServer/issues"
   },
   "homepage": "https://github.com/HM02fly/nodeServer#readme",
-  "dependencies": {
-    "body-parser": "^1.19.0",
+   "dependencies": {
     "express": "^4.17.1",
-    "helmet": "^4.5.0"
+    "helmet": "^4.5.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.5"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
